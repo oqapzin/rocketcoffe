@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFEDD5;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    animation: animatetop 0.8s;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    padding: 32px 0 ;
+    text-align: center; 
+}
+
+header h1 {
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+header h1 span {
+    color: #995000;
+} 
+
+header p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000b3;
+}
+
+header, section {
+    max-width: 300px;
+    margin-inline: auto;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+section h2 {
+    background-color: #FED7AA;
+    padding: 8px 16px;
+    text-align: center;
+
+    margin-bottom: 24px;
+}
+
+ul li {
+    margin-bottom: 16px;
+    display: flex;
+}
+
+li .details {
+    max-width: 240px;
+}  
+
+.details h3 {
+    margin-bottom: 8px;
+    line-height: 19px;
+}
+
+.details p {
+    color: #00000099;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+h1, h2, h3, .price {
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+}
+
+
+@keyframes animatetop
+{
+    from
+    {
+        top:-500px;
+        opacity:0
+    } 
+    to
+    {
+        top:0;
+        opacity:1
+    }
+}
